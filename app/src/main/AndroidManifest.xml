@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginRegistrationUsingMVVM">
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.loginregistrationusingmvvm.view.activity.AuthActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.loginregistrationusingmvvm.view.activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
